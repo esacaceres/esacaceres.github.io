@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="resources/lib/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="resources/lib/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="resources/baile.css">
+<script src="resources/lib/jquery-3.3.1.slim.min.js"></script>
+<script src="resources/lib/bootstrap.min.js"></script>
+<script src="resources/lib/popper.min.js"></script>
+<script src="resources/functions.js"></script>
+<script src="resources/bachata.js"></script>
+<script src="resources/salsa.js"></script>
+<script src="resources/pasitos.js"></script>
+<script src="resources/cubana.js"></script>
+
+<link rel="icon" href="resources/img/salsa.png">
+<title>Baile</title>
+</head>
+<body style="background:#dbdbec">
+
+  <div id="myGroup" style="padding:15px;">
+    <div style="background:#8000803b; padding:20px">
+      <button type="button" class="btn btn-primary main" data-toggle="collapse" data-target="#bachata" style="background: purple">Bachata</button>
+      <button type="button" class="btn btn-primary main" data-toggle="collapse" data-target="#salsa" style="background: purple">Salsa</button>
+      <button type="button" class="btn btn-primary main" data-toggle="collapse" data-target="#cubana" style="background: purple">Cubana</button>
+      <button type="button" class="btn btn-primary main" data-toggle="collapse" data-target="#pasitos" style="background: purple">Pasitos</button>
+      <div style="float:right"><img src="resources/img/salsa.png" style="width:100px;margin:-30px"></div>
+    </div>
+
+    <!-- BACHATA -->
+    <div id="bachata" class="collapse show sub1">
+        <div class="page-header card-square">
+          <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#news">News</button>
+        </div>
+        <div id="news" class="stepType sub">
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div class="page-header card-square">
+          <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#cool">Cool</button>
+         </div>
+        <div id="cool" class="stepType collapse sub">
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div class="page-header card-square">
+          <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#modern">Modern</button>
+         </div>
+        <div id="modern" class="stepType collapse sub">
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div class="page-header card-square">
+          <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#clasicos">Clásicos</button>
+        </div>
+        <div id="clasicos" class="stepType collapse sub">
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div class="page-header card-square">
+          <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#basicos">Basicos</button>
+        </div>
+        <div id="basicos" class="stepType collapse sub">
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div class="page-header card-square">
+          <button type="button" class="btn btn-light" data-toggle="collapse" data-target="#portesycaidas">Portés y caídas</button>
+        </div>
+        <div id="portesycaidas" class="stepType collapse sub">
+        </div>
+
+        <div style="clear:both"></div>
+    </div>
+
+
+    <!-- SALSA -->
+    <div id="salsa" class="collapse sub1">
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#pasoslibressalsa">News</button>
+      </div>
+      <div id="pasoslibressalsa" class="stepType sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#salsaNews">Cool</button>
+      </div>
+      <div id="salsaNews" class="stepType collapse sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#cross">Modern</button>
+      </div>
+      <div id="cross" class="stepType collapse sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#clasicossalsa">Clásicos</button>
+      </div>
+      <div id="clasicossalsa" class="stepType collapse sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#estatico">Básicos</button>
+      </div>
+      <div id="estatico" class="stepType collapse sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#salsatips">Tips</button>
+      </div>
+      <div style="margin-left:50px" id="salsatips" class="stepType collapse sub">
+        <p><b>Espalda recta</b> con buen porte</p>
+      </div>
+
+    </div>
+
+    <!-- CUBANA -->
+    <div id="cubana" class="collapse sub1">
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#cubananews">News</button>
+      </div>
+      <div id="cubananews" class="stepType sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#cubanacool">Cool</button>
+      </div>
+      <div id="cubanacool" class="stepType collapse sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#cubanabasicos">Básicos</button>
+      </div>
+      <div id="cubanabasicos" class="stepType collapse sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+    </div>
+
+    <!-- Pasitos -->
+    <div id="pasitos" class="collapse sub1">
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-warning" data-toggle="collapse" data-target="#salsapas">Salsa</button>
+      </div>
+      <div id="salsapas" class="stepType sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#urban">Urban</button>
+      </div>
+      <div id="urban" class="stepType collapse sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#shuffle">Cutting Shapes /Shuffle </button>
+      </div>
+      <div id="shuffle" class="stepType collapse sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+      <div class="page-header card-square">
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#bachatapas">Bachata</button>
+      </div>
+      <div id="bachatapas" class="stepType collapse sub">
+      </div>
+
+      <div style="clear:both"></div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

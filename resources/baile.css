@@ -1,0 +1,18 @@
+.modal-dialog {
+  width: 750px;
+  height: 700px !important;
+}
+
+.card-body {
+  padding: 0.2rem !important;
+  text-align: center;
+}
+
+.card-square {
+  margin:3px;
+  padding: 5px;
+}
+
+.card-img-top {
+    width: 90% !important;
+}
